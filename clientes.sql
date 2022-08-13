@@ -1,3 +1,8 @@
+create database db_tudodebom;
+
+use db_tudodebom;
+
+
 CREATE TABLE clientes(
 id_cliente int not null auto_increment,
 nome_cliente varchar(50) not null,
@@ -13,3 +18,5 @@ insert into clientes values
 (null, "Rosana Andrade", "1962-02-18", "39357745084", "71985235678");
 
 select * from clientes;
+
+drop table clientes;
