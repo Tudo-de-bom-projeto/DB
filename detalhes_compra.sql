@@ -1,6 +1,7 @@
 CREATE TABLE detalhes_compra(
 preco_estendido double not null,
 quant_compra int not null,
+valorTotal double not null,
 num_seq int not null auto_increment,
 produto_id int,
 compra_cod int,
